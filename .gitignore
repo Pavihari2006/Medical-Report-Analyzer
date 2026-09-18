@@ -1,0 +1,9 @@
+venv/
+.env
+uploads/*
+__pycache__/
+*.pyc
+.pixi/
+mojo/.pixi/
+mojo/input.txt
+mojo/output.txt
