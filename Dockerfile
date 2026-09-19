@@ -17,7 +17,7 @@ COPY . /app
 
 RUN cd /app/mojo && pixi init . -c https://conda.modular.com/max -c conda-forge && pixi add mojo
 
-RUN pip3 install --break-system-packages fastapi uvicorn pytesseract Pillow python-multipart opencv-python-headless google-genai python-dotenv
+RUN pip3 install fastapi uvicorn pytesseract Pillow python-multipart opencv-python-headless google-genai python-dotenv
 
 EXPOSE 8080
 
