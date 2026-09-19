@@ -142,7 +142,7 @@ fileInput.addEventListener('change', async () => {
   formData.append('file', file);
 
   try {
-    const response = await fetch('http://127.0.0.1:8080/upload-report', {
+       const response = await fetch('/upload-report', {
       method: 'POST',
       body: formData
     });
